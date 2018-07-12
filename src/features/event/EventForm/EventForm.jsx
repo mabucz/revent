@@ -37,7 +37,6 @@ class EventForm extends Component {
 
   }
 
-  
   onInputChange = (evt) => {
     const newEvent = this.state.event;
     newEvent[evt.target.name] = evt.target.value
@@ -45,8 +44,6 @@ class EventForm extends Component {
       event: newEvent
     })
   }
-
-  
 
   render() {
     const { handleClick } = this.props;

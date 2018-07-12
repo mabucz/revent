@@ -135,7 +135,7 @@ class EventDashboard extends Component {
     );
   }
 
-  componentDidUpdate() { console.log(this.state.events)}
+  componentDidUpdate() { console.log(this.state.events, "update")}
 }
 
 export default EventDashboard;
